@@ -1,0 +1,7 @@
+{
+  "name": "IONIC_Ricky&Morty",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
