@@ -10,9 +10,7 @@ export class UserlistPage implements OnInit {
 
   characters = []
 
-  constructor(
-    private http: HttpClient
-  ) { }
+  constructor(private http: HttpClient) { }
 
   ngOnInit() {
     this.http.get<any>('https://rickandmortyapi.com/api/character')

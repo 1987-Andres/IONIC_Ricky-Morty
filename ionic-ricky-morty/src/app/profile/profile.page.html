@@ -1,9 +1,19 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>profile</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="userlist"></ion-back-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <ion-card>
+    <ion-card-content>
+      <img src="{{character.img}}" alt="">
+      <ion-card-title>
+        {{character.name}}
+      </ion-card-title>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
